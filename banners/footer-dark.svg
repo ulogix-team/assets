@@ -1,0 +1,17 @@
+<svg width="800" height="48" viewBox="0 0 800 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="48" fill="#070213"/>
+  <!-- Top rule -->
+  <line x1="0" y1="0.5" x2="800" y2="0.5" stroke="white" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Icon mark tiny -->
+  <g transform="translate(24, 8) scale(0.26)">
+    <path d="M33.5 40.7L33.49 42.98C33.44 43.37 33.34 43.58 33.04 43.86L25.81 47.93C25.58 48.02 25.22 47.99 25.11 47.93L17.9 43.88C17.54 43.49 17.44 43.07V40.7H17.43V33.69C17.43 33.04 17.13 32.44 16.64 32.15L11.51 29.13C10.49 28.54 9.26 29.33 9.26 30.58V48.46C9.3 48.7 9.72 49.87 10.71 50.8C14.09 52.71 20.9 56.49 25.69 59.21C26.56 59.3 26.73 59.21 31.51 56.49C38.31 52.7 43.05 49.11 43.15 43.54V30.58C43.15 29.33 41.92 28.54 40.9 29.12L35.77 32.14C34.98 33.03 34.98 33.68V40.7H33.5Z" fill="white" opacity="0.7"/>
+    <path d="M9.71 26.47L18.38 30.52V21.93C18.38 21.28 17.85 20.76 17.2 20.76H9.82C9.17 20.76 8.64 21.28 8.64 21.93V25.82C8.64 26.24 8.87 26.63 9.24 26.82" fill="white" opacity="0.7"/>
+    <path d="M41.78 20.76H34.4C33.75 20.76 33.22 21.28 33.22 21.93V30.64C33.22 31.36 34.59 31.46 41.97 27.16C42.52 26.6 42.52 26.21V21.93C42.52 21.28 41.99 20.76 41.34 20.76" fill="white" opacity="0.7"/>
+  </g>
+
+  <text x="44" y="22" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="white" letter-spacing="3" opacity="0.9">ULOGIX</text>
+  <text x="44" y="36" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8" fill="white" letter-spacing="2" opacity="0.35">Universidad Nacional de Colombia · APM 2026-1</text>
+
+  <text x="776" y="30" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="8" fill="white" letter-spacing="1" opacity="0.25" text-anchor="end">github.com/ulogix-team</text>
+</svg>

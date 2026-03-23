@@ -1,95 +1,80 @@
 <p align="center">
-  <img src="banners/header-banner.svg" alt="Ulogix Banner" width="100%"/>
+  <img src="banners/header-dark.svg" alt="Ulogix" width="100%"/>
 </p>
 
-<p align="center">
-  <img src="dividers/divider-main.svg" width="100%"/>
-</p>
+<img src="dividers/divider-dark.svg" width="100%"/>
 
-# 🎨 assets · Identidad Visual Ulogix
+# assets · Identidad Visual Ulogix
 
-Repositorio centralizado de recursos gráficos SVG para todos los repositorios del equipo **Ulogix**. Todos los `README.md` del proyecto deben referenciar este repositorio para mantener coherencia visual.
+Repositorio centralizado de recursos gráficos para todos los repositorios del equipo **Ulogix**. Todos los `README.md` del proyecto deben referenciar este repositorio.
 
-<p align="center">
-  <img src="dividers/divider-section.svg" width="100%"/>
-</p>
+<img src="dividers/divider-dark.svg" width="100%"/>
 
-## 📁 Estructura
+## Estructura
 
 ```
 assets/
 ├── logos/
-│   ├── ulogix-logo-dark.svg          # Logo completo sobre fondo oscuro
-│   └── ulogix-logo-transparent.svg   # Logo con fondo transparente (color)
+│   ├── ulogix-dark.svg          # Logo completo — fondo #070213, texto blanco  (434×250)
+│   ├── ulogix-light.svg         # Logo completo — fondo blanco, texto #070213  (434×250)
+│   ├── ulogix-icon-a.svg        # Isologo (solo ícono) — variante A            (250×229)
+│   ├── ulogix-icon-b.svg        # Isologo (solo ícono) — variante B            (250×229)
+│   └── ulogix-wordmark.svg      # Logo con tagline completa                    (434×250)
 ├── banners/
-│   ├── header-banner.svg             # Banner animado principal (800×120)
-│   └── footer-banner.svg             # Banner de pie de página (800×60)
+│   ├── header-dark.svg          # Banner cabecera — dark  (800×100)
+│   ├── header-light.svg         # Banner cabecera — light (800×100)
+│   └── footer-dark.svg          # Banner pie de página — dark (800×48)
 ├── dividers/
-│   ├── divider-main.svg              # Divisor principal animado
-│   └── divider-section.svg           # Divisor de sección con corchetes
+│   ├── divider-dark.svg         # Separador — dark  (800×16)
+│   └── divider-light.svg        # Separador — light (800×16)
 ├── icons/
-│   └── node-tech.svg                 # Ícono técnico animado
 └── backgrounds/
-    └── .gitkeep
 ```
 
-<p align="center">
-  <img src="dividers/divider-section.svg" width="100%"/>
-</p>
+<img src="dividers/divider-dark.svg" width="100%"/>
 
-## 🎨 Paleta de Colores
+## Sistema de Color
 
-| Token | Hex | Uso |
+| Token | Valor | Uso |
 |---|---|---|
-| `--color-bg` | `#070213` | Fondo principal oscuro |
-| `--color-bg-mid` | `#0e0525` | Fondo medio (gradientes) |
-| `--color-primary` | `#7C3AED` | Violeta primario (Ulogix) |
-| `--color-accent` | `#a855f7` | Violeta claro / acento |
-| `--color-white` | `#FFFFFF` | Texto principal |
-| `--color-muted` | `rgba(168,85,247,0.5)` | Texto secundario |
+| Dark background | `#070213` | Fondo principal |
+| Light background | `#FFFFFF` | Variante light |
+| Text over dark | `#FFFFFF` | Texto sobre `#070213` |
+| Text over light | `#070213` | Texto sobre blanco |
 
-## ✍️ Tipografía
+> La identidad Ulogix es **bicolor y minimalista**: solo `#070213` y `#FFFFFF`. Sin gradientes ni colores adicionales.
 
-- **Display / Código**: `'Courier New', monospace` — usado en banners y labels técnicos
-- **Texto README**: Markdown por defecto de GitHub
+## Tipografía
 
-<p align="center">
-  <img src="dividers/divider-section.svg" width="100%"/>
-</p>
+- **Display / wordmark**: serif
+- **Subtítulos / labels técnicos**: sans-serif, tracking amplio
 
-## 🔗 Cómo usar en otros READMEs
+<img src="dividers/divider-dark.svg" width="100%"/>
 
-Referenciar los assets con URL raw de GitHub:
+## Cómo referenciar en otros READMEs
 
 ```markdown
-<!-- Banner de cabecera -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/header-banner.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/header-dark.svg" width="100%"/>
 </p>
 
-<!-- Divisor -->
-<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-main.svg" width="100%"/>
-
-<!-- Logo -->
-<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/logos/ulogix-logo-transparent.svg" height="60"/>
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
 ```
 
-<p align="center">
-  <img src="dividers/divider-section.svg" width="100%"/>
-</p>
+<img src="dividers/divider-dark.svg" width="100%"/>
 
-## 👥 Equipo
+## Equipo
 
-| Rol | Nombre | GitHub |
+| Nombre | Rol | GitHub |
 |---|---|---|
-| Arquitectura de Red | Andrés M. Morales | [@mora200217](https://github.com/mora200217) |
-| Robótica / RobotStudio | Andrés F. Quenan | [@Andres-Felipe-Quenan](https://github.com/Andres-Felipe-Quenan) |
-| PLC / Programación | Juan José Díaz | [@Judiazgu](https://github.com/Judiazgu) |
-| NX / Digital Factory | Juan M. Beltrán | [@JuanBeltran2024](https://github.com/JuanBeltran2024) |
-| Planeación de Proceso | Jorge N. Garzón | [@Nicolas-Eule](https://github.com/Nicolas-Eule) |
-| Finanzas | Samuel D. Sánchez | [@samsanchezcar](https://github.com/samsanchezcar) |
-| SCADA / HMI / MES | Juan F. Triana | [@jutrianaa](https://github.com/jutrianaa) |
+| Andrés Mauricio Morales Martínez | Arquitectura de Red | [@mora200217](https://github.com/mora200217) |
+| Andrés Felipe Quenan Pozo | Robótica / RobotStudio | [@Andres-Felipe-Quenan](https://github.com/Andres-Felipe-Quenan) |
+| Juan José Díaz Guerrero | PLC / Programación | [@Judiazgu](https://github.com/Judiazgu) |
+| Juan Manuel Beltrán Botello | NX / Digital Factory | [@JuanBeltran2024](https://github.com/JuanBeltran2024) |
+| Jorge Nicolas Garzón Acevedo | Planeación de Proceso | [@Nicolas-Eule](https://github.com/Nicolas-Eule) |
+| Samuel David Sanchez Cardenas | Finanzas | [@samsanchezcar](https://github.com/samsanchezcar) |
+| Juan Felipe Triana Aguilera | SCADA / HMI / MES | [@jutrianaa](https://github.com/jutrianaa) |
 
 <p align="center">
-  <img src="banners/footer-banner.svg" width="100%"/>
+  <img src="banners/footer-dark.svg" width="100%"/>
 </p>
