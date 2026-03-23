@@ -4,33 +4,101 @@
 
 # assets · Identidad Visual Ulogix
 
-Repositorio centralizado de recursos gráficos SVG para todos los repositorios del equipo **Ulogix**.
+Repositorio centralizado de recursos gráficos SVG para todos los repositorios del equipo **Ulogix**. Todos los paths son los originales del archivo de diseño Figma.
 
 <img src="dividers/divider-section-dark.svg" width="100%"/>
 
-## Estructura
+## Logos
 
-```
-assets/
-├── logos/
-│   ├── ulogix-dark.svg                    # Logo completo, fondo #070213         (434×250)
-│   ├── ulogix-light.svg                   # Logo completo, fondo blanco           (434×250)
-│   ├── ulogix-wordmark-dark.svg           # Logo con tagline, fondo #070213       (434×250)
-│   ├── ulogix-icon-dark.svg               # Solo ícono, fondo #070213             (250×229)
-│   ├── ulogix-icon-dark-alt.svg           # Solo ícono variante, fondo #070213    (250×229)
-│   ├── ulogix-transparent-dark.svg        # Logo sin fondo, paths blancos         (434×250)
-│   ├── ulogix-transparent-light.svg       # Logo sin fondo, paths #070213         (434×250)
-│   ├── ulogix-icon-transparent-dark.svg   # Ícono sin fondo, blanco               (250×229)
-│   └── ulogix-icon-transparent-light.svg  # Ícono sin fondo, #070213              (250×229)
-├── banners/
-│   ├── header-dark.svg      # 800×100, fondo #070213, ícono animado + wordmark
-│   ├── header-light.svg     # 800×100, fondo blanco
-│   └── footer-dark.svg      # 800×52,  fondo #070213, dot viajero en regla
-└── dividers/
-    ├── divider-dark.svg           # Sin fondo, stroke blanco, 2 dots viajeros + expansión
-    ├── divider-section-dark.svg   # Sin fondo, stroke blanco, brackets + ticks animados
-    └── divider-light.svg          # Sin fondo, stroke #070213
-```
+<table>
+<tr>
+  <th>Archivo</th><th>Vista previa</th><th>Uso</th>
+</tr>
+<tr>
+  <td><code>logos/ulogix-dark.svg</code></td>
+  <td><img src="logos/ulogix-dark.svg" height="60"/></td>
+  <td>Logo completo sobre fondo oscuro (434×250)</td>
+</tr>
+<tr>
+  <td><code>logos/ulogix-light.svg</code></td>
+  <td><img src="logos/ulogix-light.svg" height="60"/></td>
+  <td>Logo completo sobre fondo blanco (434×250)</td>
+</tr>
+<tr>
+  <td><code>logos/ulogix-wordmark-dark.svg</code></td>
+  <td><img src="logos/ulogix-wordmark-dark.svg" height="60"/></td>
+  <td>Logo con tagline, fondo oscuro (434×250)</td>
+</tr>
+<tr>
+  <td><code>logos/ulogix-icon-dark.svg</code></td>
+  <td><img src="logos/ulogix-icon-dark.svg" height="60"/></td>
+  <td>Solo ícono, fondo oscuro (250×229)</td>
+</tr>
+<tr>
+  <td><code>logos/ulogix-icon-dark-alt.svg</code></td>
+  <td><img src="logos/ulogix-icon-dark-alt.svg" height="60"/></td>
+  <td>Solo ícono variante, fondo oscuro (250×229)</td>
+</tr>
+<tr>
+  <td><code>logos/ulogix-transparent-dark.svg</code></td>
+  <td><img src="logos/ulogix-transparent-dark.svg" height="60"/></td>
+  <td>Logo sin fondo, paths blancos (434×250)</td>
+</tr>
+<tr>
+  <td><code>logos/ulogix-transparent-light.svg</code></td>
+  <td><img src="logos/ulogix-transparent-light.svg" height="60"/></td>
+  <td>Logo sin fondo, paths #070213 (434×250)</td>
+</tr>
+<tr>
+  <td><code>logos/ulogix-icon-transparent-dark.svg</code></td>
+  <td><img src="logos/ulogix-icon-transparent-dark.svg" height="60"/></td>
+  <td>Ícono sin fondo, blanco (250×229)</td>
+</tr>
+<tr>
+  <td><code>logos/ulogix-icon-transparent-light.svg</code></td>
+  <td><img src="logos/ulogix-icon-transparent-light.svg" height="60"/></td>
+  <td>Ícono sin fondo, #070213 (250×229)</td>
+</tr>
+</table>
+
+<img src="dividers/divider-section-dark.svg" width="100%"/>
+
+## Banners
+
+| Archivo | Dimensiones | Animaciones |
+|---|---|---|
+| `banners/header-dark.svg` | 800×100 | Scan line · icon breathe · tagline fade |
+| `banners/header-light.svg` | 800×100 | Scan line · icon breathe · tagline fade |
+| `banners/footer-dark.svg` | 800×52 | Dot viajero en regla · icon pulse |
+
+<img src="banners/header-dark.svg" width="100%"/>
+
+<img src="banners/header-light.svg" width="100%"/>
+
+<img src="banners/footer-dark.svg" width="100%"/>
+
+<img src="dividers/divider-section-dark.svg" width="100%"/>
+
+## Divisores
+
+| Archivo | Fondo | Animaciones |
+|---|---|---|
+| `dividers/divider-dark.svg` | Transparente | 2 dots viajeros · expansión desde centro · diamond pulse |
+| `dividers/divider-section-dark.svg` | Transparente | Brackets · ticks escalonados · dot central · line breathe |
+| `dividers/divider-light.svg` | Transparente | Igual que dark, strokes #070213 |
+
+<img src="dividers/divider-dark.svg" width="100%"/>
+<img src="dividers/divider-section-dark.svg" width="100%"/>
+
+<img src="dividers/divider-section-dark.svg" width="100%"/>
+
+## Ícono Técnico
+
+`icons/node-tech.svg` — ícono animado con el mark U y anillos orbitantes. Usado en sub-READMEs de módulos técnicos.
+
+<p align="center">
+  <img src="icons/node-tech.svg" width="80"/>
+</p>
 
 <img src="dividers/divider-section-dark.svg" width="100%"/>
 
@@ -43,19 +111,18 @@ assets/
 | Paths sobre dark | `#FFFFFF` | Ícono y texto sobre `#070213` |
 | Paths sobre light | `#070213` | Ícono y texto sobre blanco |
 
-> Identidad **bicolor y minimalista**. Sin gradientes ni colores adicionales. Todos los paths son los originales del archivo de diseño.
+> Identidad **bicolor y minimalista**. Sin gradientes. Todos los paths son originales del archivo Figma.
 
 <img src="dividers/divider-section-dark.svg" width="100%"/>
 
-## Cómo referenciar en otros READMEs
+## Uso en READMEs
 
 ```markdown
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/header-dark.svg" width="100%"/>
-
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-dark.svg" width="100%"/>
-
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/dividers/divider-section-dark.svg" width="100%"/>
-
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/icons/node-tech.svg" width="80"/>
+<img src="https://raw.githubusercontent.com/ulogix-team/assets/main/logos/ulogix-transparent-dark.svg" height="60"/>
 <img src="https://raw.githubusercontent.com/ulogix-team/assets/main/banners/footer-dark.svg" width="100%"/>
 ```
 
