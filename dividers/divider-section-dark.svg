@@ -1,0 +1,24 @@
+<svg width="800" height="24" viewBox="0 0 800 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main line -->
+  <line x1="0" y1="12" x2="800" y2="12" stroke="white" stroke-width="0.5" opacity="0.14"/>
+
+  <!-- Left bracket: vertical tick at x=0, animated height -->
+  <line x1="0" y1="6" x2="0" y2="18" stroke="white" stroke-width="1.2" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0.4;0" dur="5s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
+  </line>
+  <!-- Right bracket -->
+  <line x1="800" y1="6" x2="800" y2="18" stroke="white" stroke-width="1.2" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0.4;0" dur="5s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Small tick marks at quarters, staggered fade -->
+  <line x1="200" y1="9" x2="200" y2="15" stroke="white" stroke-width="0.6" opacity="0">
+    <animate attributeName="opacity" values="0;0.2;0.2;0" dur="5s" begin="0.3s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
+  </line>
+  <line x1="400" y1="8" x2="400" y2="16" stroke="white" stroke-width="0.8" opacity="0">
+    <animate attributeName="opacity" values="0;0.3;0.3;0" dur="5s" begin="0.15s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
+  </line>
+  <line x1="600" y1="9" x2="600" y2="15" stroke="white" stroke-width="0.6" opacity="0">
+    <animate attributeName="opacity" values="0;0.2;0.2;0" dur="5s" begin="0.45s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
+  </line>
+</svg>

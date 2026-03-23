@@ -6,7 +6,7 @@
 
 # assets · Identidad Visual Ulogix
 
-Repositorio centralizado de recursos gráficos para todos los repositorios del equipo **Ulogix**. Todos los `README.md` del proyecto deben referenciar este repositorio.
+Repositorio centralizado de recursos gráficos SVG para todos los repositorios del equipo **Ulogix**.
 
 <img src="dividers/divider-dark.svg" width="100%"/>
 
@@ -15,20 +15,23 @@ Repositorio centralizado de recursos gráficos para todos los repositorios del e
 ```
 assets/
 ├── logos/
-│   ├── ulogix-dark.svg          # Logo completo — fondo #070213, texto blanco  (434×250)
-│   ├── ulogix-light.svg         # Logo completo — fondo blanco, texto #070213  (434×250)
-│   ├── ulogix-icon-a.svg        # Isologo (solo ícono) — variante A            (250×229)
-│   ├── ulogix-icon-b.svg        # Isologo (solo ícono) — variante B            (250×229)
-│   └── ulogix-wordmark.svg      # Logo con tagline completa                    (434×250)
+│   ├── ulogix-dark.svg                 # Logo completo, fondo #070213           (434×250)
+│   ├── ulogix-light.svg                # Logo completo, fondo blanco             (434×250)
+│   ├── ulogix-wordmark-dark.svg        # Logo con tagline, fondo #070213         (434×250)
+│   ├── ulogix-icon-dark.svg            # Solo ícono, fondo #070213               (250×229)
+│   ├── ulogix-icon-dark-alt.svg        # Solo ícono variante, fondo #070213      (250×229)
+│   ├── ulogix-transparent-dark.svg     # Logo sin fondo, paths blancos           (434×250)
+│   ├── ulogix-transparent-light.svg    # Logo sin fondo, paths #070213           (434×250)
+│   ├── ulogix-icon-transparent-dark.svg   # Ícono sin fondo, blanco             (250×229)
+│   └── ulogix-icon-transparent-light.svg  # Ícono sin fondo, #070213            (250×229)
 ├── banners/
-│   ├── header-dark.svg          # Banner cabecera — dark  (800×100)
-│   ├── header-light.svg         # Banner cabecera — light (800×100)
-│   └── footer-dark.svg          # Banner pie de página — dark (800×48)
-├── dividers/
-│   ├── divider-dark.svg         # Separador — dark  (800×16)
-│   └── divider-light.svg        # Separador — light (800×16)
-├── icons/
-└── backgrounds/
+│   ├── header-dark.svg      # Banner 800×100, fondo #070213, icono + wordmark reales
+│   ├── header-light.svg     # Banner 800×100, fondo blanco
+│   └── footer-dark.svg      # Banner 800×52, fondo #070213
+└── dividers/
+    ├── divider-dark.svg         # Divisor sin fondo, stroke blanco animado
+    ├── divider-section-dark.svg # Divisor con ticks laterales animados (blanco)
+    └── divider-light.svg        # Divisor sin fondo, stroke #070213
 ```
 
 <img src="dividers/divider-dark.svg" width="100%"/>
@@ -39,19 +42,12 @@ assets/
 |---|---|---|
 | Dark background | `#070213` | Fondo principal |
 | Light background | `#FFFFFF` | Variante light |
-| Text over dark | `#FFFFFF` | Texto sobre `#070213` |
-| Text over light | `#070213` | Texto sobre blanco |
+| Text / icon over dark | `#FFFFFF` | Paths sobre `#070213` |
+| Text / icon over light | `#070213` | Paths sobre blanco |
 
-> La identidad Ulogix es **bicolor y minimalista**: solo `#070213` y `#FFFFFF`. Sin gradientes ni colores adicionales.
+> La identidad es **bicolor y minimalista**: solo `#070213` y `#FFFFFF`.
 
-## Tipografía
-
-- **Display / wordmark**: serif
-- **Subtítulos / labels técnicos**: sans-serif, tracking amplio
-
-<img src="dividers/divider-dark.svg" width="100%"/>
-
-## Cómo referenciar en otros READMEs
+## Cómo usar en otros READMEs
 
 ```markdown
 <p align="center">
