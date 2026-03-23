@@ -1,24 +1,31 @@
 <svg width="800" height="24" viewBox="0 0 800 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Main line -->
-  <line x1="0" y1="12" x2="800" y2="12" stroke="white" stroke-width="0.5" opacity="0.14"/>
+  <!-- Main line, breathing opacity -->
+  <line x1="0" y1="12" x2="800" y2="12" stroke="white" stroke-width="0.5">
+    <animate attributeName="opacity" values="0.1;0.2;0.1" dur="6s" repeatCount="indefinite"/>
+  </line>
 
-  <!-- Left bracket: vertical tick at x=0, animated height -->
+  <!-- Left bracket arm -->
   <line x1="0" y1="6" x2="0" y2="18" stroke="white" stroke-width="1.2" opacity="0">
-    <animate attributeName="opacity" values="0;0.4;0.4;0" dur="5s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.45;0.45;0" dur="5s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
   </line>
-  <!-- Right bracket -->
+  <!-- Right bracket arm -->
   <line x1="800" y1="6" x2="800" y2="18" stroke="white" stroke-width="1.2" opacity="0">
-    <animate attributeName="opacity" values="0;0.4;0.4;0" dur="5s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.45;0.45;0" dur="5s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
   </line>
 
-  <!-- Small tick marks at quarters, staggered fade -->
+  <!-- Quarter ticks, staggered -->
   <line x1="200" y1="9" x2="200" y2="15" stroke="white" stroke-width="0.6" opacity="0">
-    <animate attributeName="opacity" values="0;0.2;0.2;0" dur="5s" begin="0.3s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.22;0.22;0" dur="5s" begin="0.3s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
   </line>
-  <line x1="400" y1="8" x2="400" y2="16" stroke="white" stroke-width="0.8" opacity="0">
-    <animate attributeName="opacity" values="0;0.3;0.3;0" dur="5s" begin="0.15s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
+  <line x1="400" y1="7" x2="400" y2="17" stroke="white" stroke-width="0.9" opacity="0">
+    <animate attributeName="opacity" values="0;0.32;0.32;0" dur="5s" begin="0.15s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
   </line>
   <line x1="600" y1="9" x2="600" y2="15" stroke="white" stroke-width="0.6" opacity="0">
-    <animate attributeName="opacity" values="0;0.2;0.2;0" dur="5s" begin="0.45s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.22;0.22;0" dur="5s" begin="0.45s" keyTimes="0;0.2;0.8;1" repeatCount="indefinite"/>
   </line>
+
+  <!-- Dot at center, slow blink -->
+  <circle cx="400" cy="12" r="1.8" fill="white" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0.4;0" dur="5s" begin="0.15s" keyTimes="0;0.25;0.75;1" repeatCount="indefinite"/>
+  </circle>
 </svg>

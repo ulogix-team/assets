@@ -1,16 +1,32 @@
 <svg width="800" height="20" viewBox="0 0 800 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Horizontal rule, white, subtle -->
+  <!-- Base line -->
   <line x1="0" y1="10" x2="800" y2="10" stroke="#070213" stroke-width="0.6" opacity="0.18"/>
 
-  <!-- Center diamond, slow pulse -->
+  <!-- Center diamond pulse -->
   <rect x="396.5" y="6.5" width="7" height="7" fill="#070213" opacity="0"
         transform="rotate(45 400 10)">
-    <animate attributeName="opacity" values="0;0.45;0.45;0" dur="4s" keyTimes="0;0.3;0.7;1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.5;0.5;0" dur="4s" keyTimes="0;0.3;0.7;1" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Traveling dot: moves left to right along the line -->
-  <circle cx="0" cy="10" r="1.5" fill="#070213" opacity="0.6">
-    <animateMotion dur="6s" repeatCount="indefinite" path="M0,0 L800,0"/>
-    <animate attributeName="opacity" values="0;0.6;0.6;0" dur="6s" keyTimes="0;0.05;0.95;1" repeatCount="indefinite"/>
+  <!-- Traveling dot L→R -->
+  <circle cy="10" r="1.5" fill="#070213">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M0,0 L800,0"/>
+    <animate attributeName="opacity" values="0;0.55;0.55;0" dur="7s" keyTimes="0;0.04;0.96;1" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Traveling dot R→L (offset phase) -->
+  <circle cy="10" r="1.2" fill="#070213">
+    <animateMotion dur="7s" begin="-3.5s" repeatCount="indefinite" path="M800,0 L0,0"/>
+    <animate attributeName="opacity" values="0;0.35;0.35;0" dur="7s" begin="-3.5s" keyTimes="0;0.04;0.96;1" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Two dots expanding from center -->
+  <circle cx="400" cy="10" r="1" fill="#070213" opacity="0">
+    <animate attributeName="cx" values="400;0" dur="5s" begin="-1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1"/>
+    <animate attributeName="opacity" values="0;0.3;0.3;0" dur="5s" begin="-1s" keyTimes="0;0.1;0.8;1" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="10" r="1" fill="#070213" opacity="0">
+    <animate attributeName="cx" values="400;800" dur="5s" begin="-1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1"/>
+    <animate attributeName="opacity" values="0;0.3;0.3;0" dur="5s" begin="-1s" keyTimes="0;0.1;0.8;1" repeatCount="indefinite"/>
   </circle>
 </svg>

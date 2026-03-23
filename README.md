@@ -4,7 +4,7 @@
 
 # assets · Identidad Visual Ulogix
 
-Repositorio centralizado de recursos gráficos SVG para todos los repositorios del equipo **Ulogix**. Todos los `README.md` del proyecto referencian este repositorio para mantener coherencia visual.
+Repositorio centralizado de recursos gráficos SVG para todos los repositorios del equipo **Ulogix**.
 
 <img src="dividers/divider-section-dark.svg" width="100%"/>
 
@@ -23,12 +23,12 @@ assets/
 │   ├── ulogix-icon-transparent-dark.svg   # Ícono sin fondo, blanco               (250×229)
 │   └── ulogix-icon-transparent-light.svg  # Ícono sin fondo, #070213              (250×229)
 ├── banners/
-│   ├── header-dark.svg      # 800×100, fondo #070213, ícono + wordmark reales
+│   ├── header-dark.svg      # 800×100, fondo #070213, ícono animado + wordmark
 │   ├── header-light.svg     # 800×100, fondo blanco
-│   └── footer-dark.svg      # 800×52,  fondo #070213
+│   └── footer-dark.svg      # 800×52,  fondo #070213, dot viajero en regla
 └── dividers/
-    ├── divider-dark.svg           # Sin fondo, stroke blanco, punto viajero animado
-    ├── divider-section-dark.svg   # Sin fondo, stroke blanco, ticks laterales animados
+    ├── divider-dark.svg           # Sin fondo, stroke blanco, 2 dots viajeros + expansión
+    ├── divider-section-dark.svg   # Sin fondo, stroke blanco, brackets + ticks animados
     └── divider-light.svg          # Sin fondo, stroke #070213
 ```
 
@@ -43,7 +43,7 @@ assets/
 | Paths sobre dark | `#FFFFFF` | Ícono y texto sobre `#070213` |
 | Paths sobre light | `#070213` | Ícono y texto sobre blanco |
 
-> La identidad Ulogix es **bicolor y minimalista**: solo `#070213` y `#FFFFFF`. Sin gradientes ni colores adicionales. Los paths de todos los logos son los originales del archivo de diseño.
+> Identidad **bicolor y minimalista**. Sin gradientes ni colores adicionales. Todos los paths son los originales del archivo de diseño.
 
 <img src="dividers/divider-section-dark.svg" width="100%"/>
 
